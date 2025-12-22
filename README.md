@@ -1,2 +1,2 @@
 # Verilog_Practice
-Verilog codes of digital design 
+Digital design using Verilog HDL.
