@@ -1,0 +1,48 @@
+$date
+	Mon Jan 12 12:21:06 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_fullsubtractor $end
+$scope module tb_fullsubtractor $end
+$var wire 1 ! a $end
+$var wire 1 " b $end
+$var wire 1 # bin $end
+$var wire 1 $ borrow $end
+$var wire 1 % diff $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0%
+1$
+1#
+1"
+0!
+$end
+#10
+1%
+1!
+#20
+0$
+0%
+0"
+#50
+1$
+1%
+0#
+1"
+0!
+#60
+0$
+0%
+1!
+#70
