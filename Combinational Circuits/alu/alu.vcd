@@ -1,0 +1,98 @@
+$date
+	Mon Jan 12 22:22:08 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_alu $end
+$var wire 8 ! y [7:0] $end
+$var reg 8 " a [7:0] $end
+$var reg 8 # b [7:0] $end
+$var reg 3 $ opcode [2:0] $end
+$var integer 32 % i [31:0] $end
+$scope module uut $end
+$var wire 8 & a [7:0] $end
+$var wire 8 ' b [7:0] $end
+$var wire 3 ( opcode [2:0] $end
+$var parameter 3 ) add $end
+$var parameter 3 * andgate $end
+$var parameter 3 + divide $end
+$var parameter 3 , modulo $end
+$var parameter 3 - multiply $end
+$var parameter 3 . norgate $end
+$var parameter 3 / orgate $end
+$var parameter 3 0 subtract $end
+$var reg 8 1 y [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1 0
+b101 /
+b110 .
+b10 -
+b111 ,
+b11 +
+b100 *
+b0 )
+$end
+#0
+$dumpvars
+b11110 1
+b0 (
+b10100 '
+b1010 &
+bx %
+b0 $
+b10100 #
+b1010 "
+b11110 !
+$end
+#5
+b0 %
+#15
+b11110110 !
+b11110110 1
+b1 $
+b1 (
+b1 %
+#25
+b11001000 !
+b11001000 1
+b10 $
+b10 (
+b10 %
+#35
+b0 !
+b0 1
+b11 $
+b11 (
+b11 %
+#45
+b100 $
+b100 (
+b100 %
+#55
+b11110 !
+b11110 1
+b101 $
+b101 (
+b101 %
+#65
+b11100001 !
+b11100001 1
+b110 $
+b110 (
+b110 %
+#75
+b1010 !
+b1010 1
+b111 $
+b111 (
+b111 %
+#85
+b1000 %
